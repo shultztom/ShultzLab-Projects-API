@@ -5,6 +5,7 @@ var path = require("path");
 var logger = require("morgan");
 var cors = require("cors");
 const helmet = require("helmet");
+var https = require("https");
 
 var indexRouter = require("./routes/index");
 
@@ -22,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 //app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/", indexRouter);
+app.use("/shultzlabprojectsapi", indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
