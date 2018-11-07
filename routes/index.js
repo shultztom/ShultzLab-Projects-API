@@ -52,7 +52,7 @@ router.get("/all", function(req, res, next) {
         "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/shultzlabprojects.PNG",
       text: "ShultzLab Projects",
       link: "https://shultzlab.com/",
-      github: "",
+      github: "https://github.com/shultztom/shultzlab-projects-react",
       techUsed: ["React", "AWS S3", "NGINX", "Self-Hosted"]
     },
     {
