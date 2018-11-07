@@ -12,7 +12,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 1,
       img:
-        "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/golfhandicapcalculator.PNG",
+        "https://shultzlab.com/shultzlabprojectsapi/images/golfhandicapcalculator.PNG",
       text: "Golf Handicap Calculator",
       link: "https://golfhandicapcalculator.herokuapp.com/",
       github: "",
@@ -20,8 +20,7 @@ router.get("/all", function(req, res, next) {
     },
     {
       id: 2,
-      img:
-        "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/xkcdviewer.PNG",
+      img: "https://shultzlab.com/shultzlabprojectsapi/images/xkcdviewer.PNG",
       text: "XKCD Comic Viewer",
       link: "https://shultztom.github.io/xkcd-viewer-react/",
       github: "https://github.com/shultztom/xkcd-viewer-react",
@@ -29,8 +28,7 @@ router.get("/all", function(req, res, next) {
     },
     {
       id: 3,
-      img:
-        "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/xkcdapi.PNG",
+      img: "https://shultzlab.com/shultzlabprojectsapi/images/xkcdapi.PNG",
       text: "XKCD CORS API",
       link: "https://xkcd-cors-api.herokuapp.com/",
       github: "https://github.com/shultztom/xkcd-cors-api",
@@ -39,7 +37,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 4,
       img:
-        "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/randomdoggeneratorreact.PNG",
+        "https://shultzlab.com/shultzlabprojectsapi/images/randomdoggeneratorreact.PNG",
       text: "Random Dog Generator",
       link: "https://shultztom.github.io/dog-generator-react/",
       github: "https://github.com/shultztom/dog-generator-react",
@@ -49,7 +47,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 5,
       img:
-        "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/shultzlabprojects.PNG",
+        "https://shultzlab.com/shultzlabprojectsapi/images/shultzlabprojects.PNG",
       text: "ShultzLab Projects",
       link: "https://shultzlab.com/",
       github: "https://github.com/shultztom/shultzlab-projects-react",
@@ -57,8 +55,7 @@ router.get("/all", function(req, res, next) {
     },
     {
       id: 6,
-      img:
-        "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/dinofacts.PNG",
+      img: "https://shultzlab.com/shultzlabprojectsapi/images/dinofacts.PNG",
       text: "Dinosaur Facts!",
       link: "https://shultztom.github.io/dinosaur-fact-react/",
       github: "https://github.com/shultztom/dinosaur-fact-react",
@@ -66,8 +63,7 @@ router.get("/all", function(req, res, next) {
     },
     {
       id: 7,
-      img:
-        "https://s3.us-east-2.amazonaws.com/shultzlab-s3-bucket/shultzlab-projects/dinofactsapi.PNG",
+      img: "https://shultzlab.com/shultzlabprojectsapi/images/dinofactsapi.PNG",
       text: "Dinosaur Facts! API",
       link: "https://github.com/shultztom/dinosaur-fact-api",
       github: "https://dinosaur-facts-api.herokuapp.com/",
