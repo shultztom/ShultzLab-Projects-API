@@ -51,7 +51,7 @@ router.get("/all", function(req, res, next) {
       text: "ShultzLab Projects",
       link: "https://shultzlab.com/",
       github: "https://github.com/shultztom/shultzlab-projects-react",
-      techUsed: ["React", "AWS S3", "NGINX", "Self-Hosted"]
+      techUsed: ["React", "NGINX", "Self-Hosted"]
     },
     {
       id: 6,
