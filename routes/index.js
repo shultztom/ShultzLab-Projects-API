@@ -47,7 +47,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 5,
       img:
-        "https://shultzlab.com/shultzlabprojectsapi/images/shultzlabprojects.PNG",
+        "https://shultzlab.com/shultzlabprojectsapi/images/shultzlabprojects.png",
       text: "ShultzLab Projects",
       link: "https://shultzlab.com/",
       github: "https://github.com/shultztom/shultzlab-projects-react",
