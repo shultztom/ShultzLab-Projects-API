@@ -55,7 +55,7 @@ router.get("/all", function(req, res, next) {
     },
     {
       id: 6,
-      img: "https://shultzlab.com/shultzlabprojectsapi/images/dinofacts.PNG",
+      img: "https://shultzlab.com/shultzlabprojectsapi/images/dinofactsimg.PNG",
       text: "Dinosaur Facts!",
       link: "https://shultztom.github.io/dinosaur-fact-react/",
       github: "https://github.com/shultztom/dinosaur-fact-react",
