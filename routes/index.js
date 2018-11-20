@@ -31,9 +31,9 @@ router.get("/all", function(req, res, next) {
       id: 3,
       img: "https://api.shultzlab.com/images/xkcdapi-min.PNG",
       text: "XKCD CORS API",
-      link: "https://xkcd-cors-api.herokuapp.com/",
+      link: "https://xkcd-cors-api.shultzlab.com/",
       github: "https://github.com/shultztom/xkcd-cors-api",
-      techUsed: ["Express", "Heroku"]
+      techUsed: ["Express", "Self-Hosted"]
     },
     {
       id: 4,
@@ -68,9 +68,9 @@ router.get("/all", function(req, res, next) {
       img:
         "https://api.shultzlab.com/images/dinofactsapi-min.PNG",
       text: "Dinosaur Facts! API",
-      link: "https://github.com/shultztom/dinosaur-fact-api",
-      github: "https://dinosaur-facts-api.herokuapp.com/",
-      techUsed: ["Express", "Heroku"]
+      link: "https://dinosaur-facts-api.shultzlab.com/",
+      github: "https://github.com/shultztom/dinosaur-fact-api",
+      techUsed: ["Express", "Self-Hosted"]
     }
   ];
   res.json(data);
