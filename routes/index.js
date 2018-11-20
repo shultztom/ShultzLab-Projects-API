@@ -12,7 +12,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 1,
       img:
-        "https://shultzlab.com/shultzlabprojectsapi/images/golfhandicapcalculator-min.PNG",
+        "https://api.shultzlab.com/images/golfhandicapcalculator-min.PNG",
       text: "Golf Handicap Calculator",
       link: "https://golfhandicapcalculator.herokuapp.com/",
       github: "",
@@ -21,7 +21,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 2,
       img:
-        "https://shultzlab.com/shultzlabprojectsapi/images/xkcdviewer-min.PNG",
+        "https://api.shultzlab.com/images/xkcdviewer-min.PNG",
       text: "XKCD Comic Viewer",
       link: "https://shultztom.github.io/xkcd-viewer-react/",
       github: "https://github.com/shultztom/xkcd-viewer-react",
@@ -29,7 +29,7 @@ router.get("/all", function(req, res, next) {
     },
     {
       id: 3,
-      img: "https://shultzlab.com/shultzlabprojectsapi/images/xkcdapi-min.PNG",
+      img: "https://api.shultzlab.com/images/xkcdapi-min.PNG",
       text: "XKCD CORS API",
       link: "https://xkcd-cors-api.herokuapp.com/",
       github: "https://github.com/shultztom/xkcd-cors-api",
@@ -38,7 +38,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 4,
       img:
-        "https://shultzlab.com/shultzlabprojectsapi/images/randomdoggeneratorreact-min.PNG",
+        "https://api.shultzlab.com/images/randomdoggeneratorreact-min.PNG",
       text: "Random Dog Generator",
       link: "https://shultztom.github.io/dog-generator-react/",
       github: "https://github.com/shultztom/dog-generator-react",
@@ -48,7 +48,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 5,
       img:
-        "https://shultzlab.com/shultzlabprojectsapi/images/shultzlabprojects-min.png",
+        "https://api.shultzlab.com/images/shultzlabprojects-min.png",
       text: "ShultzLab Projects",
       link: "https://shultzlab.com/",
       github: "https://github.com/shultztom/shultzlab-projects-react",
@@ -57,7 +57,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 6,
       img:
-        "https://shultzlab.com/shultzlabprojectsapi/images/dinofactsimg-min.PNG",
+        "https://api.shultzlab.com/images/dinofactsimg-min.PNG",
       text: "Dinosaur Facts!",
       link: "https://shultztom.github.io/dinosaur-fact-react/",
       github: "https://github.com/shultztom/dinosaur-fact-react",
@@ -66,7 +66,7 @@ router.get("/all", function(req, res, next) {
     {
       id: 7,
       img:
-        "https://shultzlab.com/shultzlabprojectsapi/images/dinofactsapi-min.PNG",
+        "https://api.shultzlab.com/images/dinofactsapi-min.PNG",
       text: "Dinosaur Facts! API",
       link: "https://github.com/shultztom/dinosaur-fact-api",
       github: "https://dinosaur-facts-api.herokuapp.com/",
