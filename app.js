@@ -1,14 +1,13 @@
-var createError = require("http-errors");
-var express = require("express");
-var path = require("path");
-var logger = require("morgan");
-var cors = require("cors");
+const createError = require("http-errors");
+const express = require("express");
+const path = require("path");
+const logger = require("morgan");
+const cors = require("cors");
 const helmet = require("helmet");
-var https = require("https");
 
-var indexRouter = require("./routes/index");
+const indexRouter = require("./routes/index");
 
-var app = express();
+const app = express();
 app.use(helmet());
 app.use(cors());
 
@@ -16,7 +15,9 @@ app.use(cors());
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
-//app.use(logger("dev"));
+app.use(
+  logger(":method :url :status :res[content-length] - :response-time ms")
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));

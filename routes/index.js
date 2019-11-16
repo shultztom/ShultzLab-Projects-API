@@ -1,5 +1,5 @@
-var express = require("express");
-var router = express.Router();
+const express = require("express");
+const router = express.Router();
 
 /* GET home page. */
 router.get("/", function(req, res, next) {
@@ -8,7 +8,7 @@ router.get("/", function(req, res, next) {
 
 /* GET state page. */
 router.get("/all", function(req, res, next) {
-  let data = [
+  const data = [
     {
       id: 1,
       img: "https://api.shultzlab.com/images/golfhandicapcalculator-min.PNG",
