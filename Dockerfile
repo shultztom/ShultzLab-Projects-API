@@ -4,9 +4,9 @@ FROM node:12.13.0-alpine
 WORKDIR /app
 
 # Install app dependencies
-COPY package.json yarn.lock ./
+COPY package.json package-lock.json ./
 
-RUN yarn install --production
+RUN npm install --production
 # If you are building your code for production
 # RUN npm ci --only=production
 
