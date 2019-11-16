@@ -35,7 +35,7 @@ node('linux'){
 
     // OC Start Build
     stage('OC Start Build') { 
-        sh "./oc start-build shultzlab-projects --follow"
+        sh "./oc start-build shultzlab-projects-api --follow"
     }
 
     // OC Logout
