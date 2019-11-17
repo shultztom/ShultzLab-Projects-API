@@ -13,9 +13,9 @@ router.get("/all", function(req, res, next) {
       id: 1,
       img: "https://api.shultzlab.com/images/golfhandicapcalculator-min.PNG",
       text: "Golf Handicap Calculator",
-      link: "https://golfhandicapcalculator.herokuapp.com/",
+      link: "https://golf-handicap-calculator.shultzlab.com/",
       github: "",
-      techUsed: ["Express", "MongoDB", "Passport", "Heroku"]
+      techUsed: ["Express", "MongoDB", "Passport", "Self-Hosted", "OpenShift"]
     },
     {
       id: 2,
